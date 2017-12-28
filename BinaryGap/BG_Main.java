@@ -15,7 +15,7 @@ public class BG_Main {
 		int maxLength = 0;
 		int theLength = 0;
 		
-		for (int i = 0; i < str.length(); ++i)
+		for (int i = 0; i < str.length(); i++)
 		{
 			char charAt = str.charAt(i);
 			if(charAt == '0')
